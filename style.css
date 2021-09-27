@@ -22,7 +22,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky; top: 0; 
+    position: fixed; 
+    top: 0; 
 
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.8);
@@ -51,7 +52,7 @@ nav li:hover a:hover{
 }
 
 .bts__image{
-    width: 200px;
+    width: 250px;
      /* transform: rotate(-90deg); */
     border-radius: 50%;
     margin-top: 20px;
@@ -81,13 +82,17 @@ nav li:hover a:hover{
 .right_side,
 .education, 
 .contact, 
-.content, 
-.span__email,
+.content,
 .skills,
 .footer,
 .hero{
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4);
+}
+
+.contact{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6);
 }
 
 .hero{
@@ -174,6 +179,7 @@ nav li:hover a:hover{
     font-size: 18px;
 }
 .hero{
+    padding-top: 80px;
     display: flex;
     height: 80%;
     justify-content: center;

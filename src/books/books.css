@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../../assets/bookshelf-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bookcard{
+    border: 4px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px;
+    max-width: 20vw;
+}
+.image__bookcard{
+    display: flex;
+    justify-content: center;
+    max-width: 20vw;
+    max-height: 60vh;
+}
+.bookcard img{
+    vertical-align: middle;
+    text-align: center;
+    max-width: 20vw;
+    max-height: 60vh;
+}
+
+.bookcard p{
+    font-size: 12px;
+}
+.card_content{
+    padding-left: 6px;
+}
+.content__books{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.content__books img{
+    height: 100px;
+}
+.notopPadding{
+    padding-top: 0px;
+}

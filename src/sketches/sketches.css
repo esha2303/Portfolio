@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../../assets/wall.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content__sketch{
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image_container__sketch{
+    padding: 6px;
+}
+.image_container__sketch img{
+    margin: 10px;
+    vertical-align: middle;
+    max-width: 20vw;
+    max-height: 60vh;
+    border: 8px solid rgb(255, 255, 255);
+}
